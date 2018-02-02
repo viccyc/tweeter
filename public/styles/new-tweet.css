@@ -1,0 +1,103 @@
+.new-tweet h2 {
+    font-size: x-large;
+    color: #48564e;
+    margin-top: 1px;
+    padding: 0.5em;
+    margin-bottom: 0px;
+}
+
+.new-tweet h2:after
+{
+    content:' ';
+    display:block;
+    border:1px solid black;
+}
+
+.list {
+    padding: 20px;
+    width: 370px;
+}
+
+.new-tweet {
+  margin: 0 auto;
+  background-color: #e6e9ea;
+  width: 80%;
+  border-style: ridge;
+  border-radius: 10px;
+}
+
+.counter {
+  color: black;
+  float: right;
+  margin-top: 5px;
+}
+
+#submit {
+  margin-top: 5px;
+}
+
+.article {
+    margin: 0 auto;
+    width: 80%;
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+.article header {
+    background-color: #e6e9ea;
+}  
+
+.article h1 {
+    color: #48564e;
+    padding: 0.5em;
+    display: inline;
+    vertical-align: top;
+}
+
+.article img {
+    width: 70px;
+    padding: 8px;
+}
+
+.new-tweets {
+    margin-top: 10px;
+}
+
+.tweetName {
+    color: gray;
+    display: inline;
+    vertical-align: top;
+    float: right;
+    padding-top: 20px;
+    padding: 15px;
+}
+
+.tweetText {
+    padding: 20px;
+    color: #737070;
+    font-size: larger;
+}
+
+.tweetDays {
+    padding: 15px;
+    color: #737070;
+    font-size: medium;
+    display: inline;
+}
+
+.tweetFlags {
+    display: inline;
+    float: right;
+    color: #737070;
+    font-size: medium;
+}
+
+.article footer {
+    border-top: 1px solid #d4c9c9;
+    padding: 10px;
+}
+
+a {
+    color: #45c7be;;
+    text-decoration: none;
+}

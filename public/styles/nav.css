@@ -1,0 +1,49 @@
+#nav-bar {
+    background-color: #00a087;
+    font: #e8fdff;
+    position: fixed;
+    padding-left: 2em;
+    padding-right: 2em;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    width: 100%;
+}
+
+#nav-bar .logo {
+    height: 80px;
+    width: 80px;
+    float: left;
+    padding-right: 10px;
+}
+
+#nav-bar .header {
+    float: left;
+    font-size: 2em;
+    line-height: 2.5;
+}
+
+#textAreaId {
+    display: block;
+    width: 100%;
+}
+
+form {
+    padding: 1em;
+}
+
+.compose {
+    float: right;
+    padding: 10px;
+    margin-top: 15px;
+    color: #20bf9d;
+    font-size: x-large;
+    border-radius: 10px;
+    border-color: black;
+    cursor: pointer;
+}
+
+
+
+
