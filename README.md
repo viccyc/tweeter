@@ -23,8 +23,8 @@ This project then worked on HTML, CSS, JS, jQuery and AJAX front-end skills, and
 
 ## Screenshots
 
-!["View of whole app"]("https://github.com/viccyc/tweeter/blob/master/docs/Whole-app-view.png")
-!["Compose box writing a tweet"]("https://github.com/viccyc/tweeter/blob/master/docs/Writing-tweet.png")
-!["Posting a tweet just written"]("https://github.com/viccyc/tweeter/blob/master/docs/Posting-tweet-just-written.png")
-!["Error checking on message length"]("https://github.com/viccyc/tweeter/blob/master/docs/message-length.png")
-!["Hide compose box"]("https://github.com/viccyc/tweeter/blob/master/docs/Hide-compose-box.png")
+!["View of whole app"](https://github.com/viccyc/tweeter/blob/master/docs/Whole-app-view.png)
+!["Compose box writing a tweet"](https://github.com/viccyc/tweeter/blob/master/docs/Writing-tweet.png)
+!["Posting a tweet just written"](https://github.com/viccyc/tweeter/blob/master/docs/Posting-tweet-just-written.png)
+!["Error checking on message length"](https://github.com/viccyc/tweeter/blob/master/docs/message-length.png)
+!["Hide compose box"](https://github.com/viccyc/tweeter/blob/master/docs/Hide-compose-box.png)
