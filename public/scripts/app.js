@@ -85,7 +85,7 @@ $(document).ready(function(){
     if (!tweetText || tweetText === null) {
       flashMessage = 'There\'s no tweet to submit!';
       showflashMsg(flashMessage);
-    } else if ($(".counter").text() < 10) {
+    } else if ($(".counter").text() < 0) {
       flashMessage = '140 chars max please';
       showflashMsg(flashMessage);
     } else {
