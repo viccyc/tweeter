@@ -41,12 +41,16 @@ $(document).ready(function(){
     // takes return value and appends it to the tweets container
     for (tweetId in data) {
       var tweet = data[tweetId];
-      var daysAgo = moment(tweet.created_at).fromNow();
-      // Construct the html
-      var tweetHtml = createTweetElement(tweet, daysAgo);
-      // Append to the list
-      $('#tweets-container').prepend(tweetHtml);
+      createIndividTweet(tweet);
     }
+  }
+
+  function createIndividTweet(data) {
+    var daysAgo = moment(data.created_at).fromNow();
+    // Construct the html
+    var tweetHtml = createTweetElement(data, daysAgo);
+    // Append to the list
+    $('#tweets-container').prepend(tweetHtml)
   }
 
   var loadTweets = function() {
@@ -86,9 +90,16 @@ $(document).ready(function(){
       showflashMsg(flashMessage);
     } else {
       let queryString = $("#textAreaId").serialize();
-      $.post("/tweets", queryString, renderTweets);
-      location.reload();
-    }
+      $.post("/tweets", queryString)
+      .done(function(response) {
+          createIndividTweet(response);
+          $("#textAreaId").val('');
+      }).fail(function(err) {
+        console.log("failed", err);
+      }).always(function() {
+      });
+
+    }      
   });
 
   $("#textAreaId").click(function() {
